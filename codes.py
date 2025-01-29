@@ -172,3 +172,9 @@ def sum_of_digits(n):
 num = int(input("Enter a number: "))
 print("Sum of digits:", sum_of_digits(num))
 """
+# Print() method Python
+
+# **Basic Print:**- Write a program that prints "Hello, World!" to the console
+"""
+print("Hello, World!")
+"""
