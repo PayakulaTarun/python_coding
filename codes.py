@@ -178,3 +178,21 @@ print("Sum of digits:", sum_of_digits(num))
 """
 print("Hello, World!")
 """
+
+#. **Multiple Prints:**- Create a program that uses multiple `print` statements to output a message with line breaks
+
+"""
+print("Hello")
+print("world!")
+"""
+# **Formatted Output:**- Write a program that uses formatted strings to print variables with descriptive messages.
+"""
+name = input("Enter your name: ")
+print(f"my name is : {name}")
+"""
+# **String Concatenation:**- Develop a program that prints the concatenation of two strings
+"""
+str1 = "Hello"
+str2 = "World"
+print(str1 + " " + str2)
+"""
