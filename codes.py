@@ -218,3 +218,8 @@ print(a-b)
 print(a*b)
 print(a/b)
 """
+#. **Precision Printing:**- Write a program that uses formatted strings to print a floating-point number with two decimal places.
+"""
+number = float(input("Enter a number in float"))
+print(f"the number with 2 decimal places {number:.2f}")
+"""
