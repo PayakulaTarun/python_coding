@@ -254,6 +254,29 @@ print(path)
 #World!""")
 
 # **Printing Special Characters:**- Write a program that prints special characters (e.g., copyright symbol, newline) using Unicode escape sequences.
-
+"""
 print("\u00A9") # copyright symbol
 print("\n") # newline
+"""
+#. **Print with Separator and End:**- Develop a program that uses both the `sep` and `end` parameters in the `print` function
+
+"""
+a=input("Enter a name: ")
+
+b=input("Enter a number: ")
+
+print(a,b,sep=" @ ", end=".......")
+"""
+#**Formatted Output with Arithmetic:**- Create a program that uses formatted strings to print the result of an arithmetic expression.
+
+a=int(input("Enter a number: "))
+
+b=int(input("Enter another number: "))
+
+print(f"Addition: {a+b}")
+
+print(f"Subtraction: {a-b}")
+
+print(f"Multiplication: {a*b}")
+
+print(f"Division: {a/b}")
