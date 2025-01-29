@@ -248,3 +248,8 @@ print(a,b,end=".......")
 path = r"D:\python\Python_beginner questions.pdf"
 print(path)
 """
+# **Print with Triple Quotes:**- Create a program that uses triple-quoted strings to print a multi-line message
+"""
+print("""Hello
+World!""")
+"""
