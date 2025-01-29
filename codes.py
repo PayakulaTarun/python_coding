@@ -250,6 +250,10 @@ print(path)
 """
 # **Print with Triple Quotes:**- Create a program that uses triple-quoted strings to print a multi-line message
 """
-print("""Hello
-World!""")
-"""
+#print("""#Hello
+#World!""")
+
+# **Printing Special Characters:**- Write a program that prints special characters (e.g., copyright symbol, newline) using Unicode escape sequences.
+
+print("\u00A9") # copyright symbol
+print("\n") # newline
