@@ -196,3 +196,6 @@ str1 = "Hello"
 str2 = "World"
 print(str1 + " " + str2)
 """
+# **Escape Characters:**-Create a program that uses escape characters to print a multi-line string.
+
+print("hello \n world!")
