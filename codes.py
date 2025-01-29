@@ -204,3 +204,17 @@ print("hello \n world!")
 """
 print("Hello", "World", sep=" ")
 """
+#. **Variable Printing:**- Develop a program that takes user input and prints a personalized greeting
+"""
+name = input("Enter your name: ")
+print("Hello", name)
+"""
+#**Number Printing:**- Create a program that prints the result of a mathematical expression
+"""
+a =  int(input("enter a number: ")) 
+b = int(input("enter another number: "))
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+"""
