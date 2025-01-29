@@ -243,3 +243,8 @@ a=int(input("Enter a number"))
 b=input("Enter a name")
 print(a,b,end=".......")
 """
+#**Printing Raw Strings:**- Develop a program that uses a raw string to print a path without interpreting escape characters.
+"""
+path = r"D:\python\Python_beginner questions.pdf"
+print(path)
+"""
