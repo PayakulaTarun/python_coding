@@ -232,7 +232,14 @@ b=input("Enter a number: ")
 print(a,b,sep=" @ ")
 """
 #**Printing Variables and Constants:**- Create a program that prints the value of a variable and a constant
-
+"""
 a=int(input("Enter a number"))
 
 print(a)
+"""
+#**Print with End Parameter:**- Write a program that prints multiple items with a custom `end` parameter.
+"""
+a=int(input("Enter a number"))
+b=input("Enter a name")
+print(a,b,end=".......")
+"""
