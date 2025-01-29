@@ -297,4 +297,11 @@ elif a < 0:
 else:
     print("The number is zero")
 """
+# **Print with f-strings:**- Write a program that uses f-strings to print variables and expressions.
+"""
+name = input("Enter your name: ")
 
+age = int(input("Enter your age: "))
+
+print(f"Hello, {name}! You are {age} years old.")
+"""
