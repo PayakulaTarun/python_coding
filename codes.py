@@ -282,6 +282,19 @@ print(f"Multiplication: {a*b}")
 print(f"Division: {a/b}")
 """
 #. **Print with File Parameter:**- Write a program that prints to a file using the `file` parameter in the `print` function
-
+"""
 with open("output.txt", "w") as file:
     print("Hello, World!", file=file)
+"""
+#**Conditional Printing:**- Develop a program that uses the `print` function inside a conditional statement.
+"""
+a=int(input("Enter a number: "))
+
+if a > 0:
+    print("The number is positive")
+elif a < 0:
+    print("The number is negative")
+else:
+    print("The number is zero")
+"""
+
