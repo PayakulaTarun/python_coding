@@ -223,3 +223,9 @@ print(a/b)
 number = float(input("Enter a number in float"))
 print(f"the number with 2 decimal places {number:.2f}")
 """
+#**Print with Separator:**- Develop a program that prints multiple items separated by a specific character
+a=input("Enter a name: ")
+
+b=input("Enter a number: ")
+
+print(a,b,sep=" @ ")
