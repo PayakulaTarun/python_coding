@@ -268,7 +268,7 @@ b=input("Enter a number: ")
 print(a,b,sep=" @ ", end=".......")
 """
 #**Formatted Output with Arithmetic:**- Create a program that uses formatted strings to print the result of an arithmetic expression.
-
+"""
 a=int(input("Enter a number: "))
 
 b=int(input("Enter another number: "))
@@ -280,3 +280,8 @@ print(f"Subtraction: {a-b}")
 print(f"Multiplication: {a*b}")
 
 print(f"Division: {a/b}")
+"""
+#. **Print with File Parameter:**- Write a program that prints to a file using the `file` parameter in the `print` function
+
+with open("output.txt", "w") as file:
+    print("Hello, World!", file=file)
